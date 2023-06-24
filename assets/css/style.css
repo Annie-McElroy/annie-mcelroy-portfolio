@@ -1,0 +1,19 @@
+body {
+    font-family: "Verdana", sans-serif;
+}
+
+header {
+    display: flex;
+    font-family: "Lucida Console", "Courier New", monospace;
+    list-style-type: none;
+    background-color: aquamarine;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
