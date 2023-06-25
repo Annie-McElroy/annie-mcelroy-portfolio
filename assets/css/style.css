@@ -35,6 +35,25 @@ header ul li {
     margin-left: 25px;
 }
 
+/* h2 {
+    display: block;
+    float: left;
+} */
+
+#about-me,
+#my-websites {
+    padding: 10%;
+}
+
+#about-me p {
+    align-self: center;
+}
+
+img {
+    width: 300px;
+    height: 400px;
+}
+
 footer {
     display: flex;
     font-family: "Lucida Console", "Courier New", monospace;
