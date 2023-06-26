@@ -9,11 +9,19 @@ body {
 a:link {
     color: #92CCCE;
     background-color: transparent;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:visited {
     color: #b192ce;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #a06dcf;
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 header {
@@ -27,7 +35,7 @@ header {
 }
 
 header h1 {
-    margin: 10px 20% 10px 0px;
+    margin: 10px 18% 10px 0px;
     padding: 10px 10px 10px 8%;
     background-color: #92CCCE;
     font-size: 25px;
@@ -74,7 +82,7 @@ p {
 }
 
 .my-websites-header {
-    padding: 5%;
+    padding: 4%;
 }
 
 #prework-img,
@@ -99,13 +107,13 @@ footer {
     font-family: "Lucida Console", "Courier New", monospace;
     background-color: #31343D;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     color: #92CCCE;
     padding: 13px;
 }
 
 .contact {
-    margin: 10px 20% 10px 0px;
+    margin: 10px 15% 10px 0px;
     padding: 10px 10px 10px 8%;
     font-size: 20px;
 }
@@ -117,5 +125,5 @@ footer ul {
 
 footer ul li {
     display: inline-block;
-    /* padding: 5px; */
+    padding: 11px;
 }
