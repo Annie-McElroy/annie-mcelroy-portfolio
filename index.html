@@ -6,8 +6,6 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Document</title>
 </head>
-
-<body>
     <header>
         <h1>Annie McElroy</h1>
         <nav>
@@ -19,24 +17,31 @@
             </ul>
         </nav>
     </header>
+<!-- 
+        <aside>
+            <h2>About Me</h2>
+            <img src="assets/images/self-picture.jpg" alt="Headshot" class="headshot">
+        </aside> -->
 
-    <figure class="hero"></figure>
-    <section>
-        <h2 id="about-me">About Me</h2>
+    <section class="about-me">
+        <h2 class="about-me-header">About Me</h2>
         <p>
-            I've begun learning web development as an opportunity to learn something new. I have a dream of websites I want to build and share with friends and people of common interest. I never thought of it as a career choice until I decided that it was worth pursuing! I decided to pursue web development as a career choice after 7+ years at my last job. While I was excellent in my previous position I didn't feel like I was growing in any direction. I wasn't learning anything. Web development, I've come to realize, is in constant growth so I'll always have something new to learn and I believe that is what extracted me the most to it. My hope with this portfolio is to not only show the work I've completed but also allow me the opportunity to look back and see how I've grown and what I can learn next.
+            I've begun learning web development as an opportunity to learn something new. I have a dream of websites I want to build and share with friends and people of common interest. I never thought of it as a career choice until I decided that it was worth pursuing after 7+ years at my last job where I didn't feel growth in any direction.
         </p>
-        <p> 
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, atque totam. Libero accusantium optio natus possimus incidunt facilis sed fugiat, veritatis quibusdam veniam, distinctio, ducimus alias quas sequi molestias dicta.
+        <p>
+            Web development, I've come to realize, is in constant growth so I'll always have something new to learn and I believe that is what extracted me the most to it. My hope with this portfolio is to not only show the work I've completed but also allow me the opportunity to look back and see how I've grown and what I can learn next.
         </p>
-        <br>
+        <img id="headshot" src="assets/images/self-picture.jpg" alt="Headshot">
     </section>
 
-    <section>
-        <h2 id="my-websites"> My Websites</h2>
+    <!-- <aside>
+        <h2>My Websites</h2>
+    </aside> -->
+    <section class="my-websites">
+        <h2 class="my-websites-header">My Websites</h2>
         <figure>
-            <a href="https://annie-mcelroy.github.io/prework-study-guide/"><img id="prework" src="assets/images/screencapture-prework-study-guide.png" alt="Prework Study Guide website"></a>
-            <figcaption>Prework Study Guide</figcaption>
+            <a href="https://annie-mcelroy.github.io/prework-study-guide/"><img id="prework-img" src="assets/images/screencapture-prework-study-guide.png" alt="Prework Study Guide website"></a>
+            <figcaption id="prework">Prework Study Guide</figcaption>
         </figure>
         <figure>
             <a href="https://annie-mcelroy.github.io/horiseon-accessibility-refactor/"><img id="refactor" src="assets/images/screenshot-horiseon.png" alt="Horiseon refracted website"></a>
@@ -45,11 +50,11 @@
     </section>
 
     <footer>
-        <h2 id="contact">Contact Me</h2>
+        <h2 class="contact">Contact Me</h2>
         <ul>
-            <li>Phone Number</li>
-            <li>Email</li>
-            <li>GitHub</li>
+            <li><a href="tel:+15125858522">Call Me at 512-585-8522</a></li>
+            <li> <a href="mailto:annie.mcelroy8522@gmail.com">Email Me at annie.mcelroy8522@gmail.com</a></li>
+            <li><a href="https://github.com/Annie-McElroy">GitHub</a></li>
         </ul>
     </footer>
 </body>
