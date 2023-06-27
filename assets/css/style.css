@@ -75,10 +75,9 @@ header ul li {
     border-radius: 999em;
 }
 
-/* .about-me {
-    display: flex;
-    justify-content: center;
-} */
+.about-me {
+    min-height: 420px;
+}
 
 .about-me-header {
     text-align: center;
@@ -97,18 +96,19 @@ p {
 
 .my-websites-header {
     padding: 4%;
-    margin: 10%;
+    margin: 4%;
 }
-
-/* #prework-img,
-#refactor {
-    display: inline-block;
-} */
 
 .container {
     position: relative;
     display: inline-block;
 }
+
+/* .flex-item {
+    min-height: 150px;
+    max-height: 150px;
+    flex-shrink: 3;
+} */
 
 .prework,
 .horiseon,
@@ -183,26 +183,12 @@ footer ul li {
 
 
 /* Tablets - header changes color */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     body {
         background-image: none;
         background-color: white;
     }
-    .prework-img {
-        flex: 2 3 400px;
-    }
-}
-
-  /* Large smartphones - navbar changes color */
-/* @media screen and (max-width: 768px) {
-    nav {
-    background-color: #bb8588;
-    }
-} */
-
-  /* Small smartphones - image placeholders change color */
-/* @media screen and (max-width: 576px) {
-    .sample-img {
-    background-color: #8ac4ff;
+    .container {
+        flex: 0 3 0;
     }
 } */
